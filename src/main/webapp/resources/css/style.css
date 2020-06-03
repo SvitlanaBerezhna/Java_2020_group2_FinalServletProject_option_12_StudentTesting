@@ -1,0 +1,134 @@
+body {
+    background-color: lightblue;
+}
+
+.td {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.formOne {
+    width: 300px;
+}
+
+.formOne label {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.tableList {
+    max-width: 50%;
+    width: 50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    min-width: 1000px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.header {
+    height: 50px;
+    background: #343A40;
+}
+
+.header a, div {
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.middle1 {
+    width: 100%;
+    padding: 0 0 0;
+    position: relative;
+    background-color: lightblue;
+}
+
+.middle1:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.container1 {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    color: black;
+}
+
+.content1 {
+    padding: 0 0 0 270px;
+}
+
+.content1 p {
+    color: black;
+}
+
+.left-sidebar1 {
+    float: left;
+    width: 250px;
+    margin-left: -100%;
+    position: relative;
+    background: #f8f9fa;
+    height: 582px;
+}
+
+.btn-light {
+    width: 250px;
+}
+
+.footer {
+    margin: -25px auto 0;
+    min-width: 1000px;
+    height: 25px;
+    background: #343A40;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+select {
+    width: 300px;
+}
+
+.question {
+    background-color: #fae17b;
+    width: 98%;
+    padding-left: 10px;
+}
+
+.option {
+    color: #1b1e21;
+}
+
+.correctAnswer {
+    color: crimson;
+    background-color: #fad9cf
+}
+
+#timeleft {
+    color: red;
+}
